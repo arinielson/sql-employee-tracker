@@ -1,10 +1,27 @@
-# 12 SQL: Employee Tracker
+# SQL: Employee Tracker
 
 ## Description
 
-Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
+
+## Instruction
+
+In db/connection.js input your mysql user, password, & database information then save.
+
+Open the terminal in the root directory & enter the following:
+
+* npm install mysql2
+* npm install inquirer
+* npm install console.table --save
+* mysql -u [user] -p
+* enter your mysql password
+* SOURCE db/db.sql
+* SOURCE db/schema.sql
+* SOURCE db/seeds.sql
+* quit
+* node server.js
+
 
 ## User Story
 
@@ -13,6 +30,7 @@ AS A business owner
 I WANT to be able to view and manage the departments, roles, and employees in my company
 SO THAT I can organize and plan my business
 ```
+
 
 ## Acceptance Criteria
 
@@ -36,15 +54,18 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
 
+
 ## Mock-Up
 
-The following video shows an example of the application being used from the command line:
+The following image shows an example of the application being used from the command line:
 
-[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./assets/12-sql-homework-video-thumbnail.png)](https://2u-20.wistia.com/medias/2lnle7xnpk)
+[![An image thumbnail shows the command-line employee management application.](./assets/12-sql-homework-video-thumbnail.png)]
 
 ## Links
 
 GitHub: https://github.com/arinielson/sql-employee-tracker
+
+Video: 
 
 
 ## Credits

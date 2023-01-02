@@ -59,13 +59,13 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 The following image shows an example of the application being used from the command line:
 
-[![An image thumbnail shows the command-line employee management application.](./assets/12-sql-homework-video-thumbnail.png)]
+[![An image thumbnail shows the command-line employee management application.](./assets/sql-challenge-terminal.jpg)]
 
 ## Links
 
 GitHub: https://github.com/arinielson/sql-employee-tracker
 
-Video: 
+Video: https://drive.google.com/file/d/1SB68-1Bct3zDgy7WAybCdsBG06_lXyw4/view
 
 
 ## Credits
